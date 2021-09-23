@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DecolaTech.FonsecaFlix.Console/1.0.0": {
+        "dependencies": {
+          "DecolaTech.FonsecaFlix": "1.0.0"
+        },
+        "runtime": {
+          "DecolaTech.FonsecaFlix.Console.dll": {}
+        }
+      },
+      "DecolaTech.FonsecaFlix/1.0.0": {
+        "runtime": {
+          "DecolaTech.FonsecaFlix.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DecolaTech.FonsecaFlix.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DecolaTech.FonsecaFlix/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

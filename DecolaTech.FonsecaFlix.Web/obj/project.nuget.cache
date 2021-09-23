@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "SKO9v52fVtya3HDhiO2l3GDqe9ZOcH52kUvvaFqAfNWzirvuergQvq1zr9+LnCD3Zv92lT2eVwy4UrjGyrqBUg==",
+  "success": true,
+  "projectFilePath": "/home/lucasfonsecab/Documents/dev/DIO/DecolaTech/DecolaTech-CatalogoSeries/DecolaTech.FonsecaFlix.Web/DecolaTech.FonsecaFlix.Web.csproj",
+  "expectedPackageFiles": [
+    "/home/lucasfonsecab/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/lucasfonsecab/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/lucasfonsecab/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/home/lucasfonsecab/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/home/lucasfonsecab/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/home/lucasfonsecab/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
