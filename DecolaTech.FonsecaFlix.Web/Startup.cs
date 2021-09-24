@@ -12,6 +12,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
+using DecolaTech.FonsecaFlix.Interfaces;
+using DecolaTech.FonsecaFlix.Models;
+using DecolaTech.FonsecaFlix.Data;
+
 namespace DecolaTech.FonsecaFlix.Web
 {
     public class Startup
@@ -27,7 +31,10 @@ namespace DecolaTech.FonsecaFlix.Web
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddSingleton<IRepository<SerieEntity>, SeriesRepository>();
+            
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DecolaTech.FonsecaFlix.Web", Version = "v1" });
